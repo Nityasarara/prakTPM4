@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Guppy" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/black</item>
+    </style>
+
+    <style name="CustomCardview" parent="CardView">
+        <item name="cardBackgroundColor">#0f0f0f</item>
+    </style>
+
+    <style name="CustomTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#124c91</item>
+    </style>
+    <style name="customBackground" parent="Widget.Design.ScrimInsetsFrameLayout">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="customBottomNavigation" parent="Widget.Design.BottomNavigationView">
+        <item name="itemTextColor">@drawable/tab_color</item>
+        <item name="itemIconTint">@drawable/tab_color</item>
+        <item name="android:background">@color/black</item>
+    </style>
+</resources>
